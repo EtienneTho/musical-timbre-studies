@@ -8,23 +8,38 @@ This project is separated into two parts corresponding to the two main different
 
 ## Instructions
 
+MDS analysis : written in MATLAB
 1. Paste the `'./ext/'` folder (private link provided upon request) in the main repo `'./musical-timbre-studies/'`
+2. Run analyses with `main_MDS_BASED_ANALYSIS.m`
+3. Generate figure by running `Figure2.m`
 
-2. MDS based analysis (MATLAB)
-    
-   * Run analyses with `main_MDS_BASED_ANALYSIS.m`
-   * Generate figure by running `Figure2.m`
-    
-2. Metric learning: optimisation of gaussian kernels written in python (python 3.X). We are providing 6 different scripts corresponding to the different analysis of the paper.
+Metric learning: optimisation of gaussian kernels written in python (python 3.X). We detail below the correspondance between the scripts and the results reported in the paper. As the computation of the optimizations (scripts 010_XX 011_XX 012_XX 013_XX) is time consuming, the optimized are provided in the repository and don't need to be necessarilt re-run.
 
-   * `'01_optimize_metrics.py'`: run optimisation of between-sounds metrics (optimised metrics are logged in folder `'./out_folder'`)
-   * `'02_optimize_decimated_metrics.py'`: run optimisation of between-sounds metrics with decimated representation.
-   * `'03_optimized_kernels_analysis.py'`: run analysis of the optimised metrics
-   * `'04_EuclideanDistance.py'`: compute correlations between perceptual dissimilarities and euclidean distances between STRFs
-   * `'05_acoustic_interpretation.py'`: generalizability analysis
-   * `'06_correlation_with_variability.py'`: correlations between optimised metrics and the variability of sound representations
+### Optimized metrics simulating human dissimilarity ratings
+   * `'010_optimize_metrics.py'`: run optimisation of between-sounds metrics for Full STMF, scale-rate, freq-rate, and freq-scale representations.
+   * `'011_optimize_metrics_spectrum.py'`: run optimisation of between-sounds metrics for the Auditory Spectrum.
+   * `'012_optimize_euclidean_distance.py'`: run the pairwise euclidean distances between Full STMFs representation.
+   * `'013_optimize_decimated_metrics.py'`: run optimisation of between-sounds metrics for Full STMF, scale-rate, freq-rate, and freq-scale decimated representations.
+   * `'014_acoustic_interpretation_results_light.py'`: Cross-validation analysis of the metrics
+   * `'015_acoustic_interpretation_results_light_tabs.py'`: Cross-validation analysis of the metrics with full statistics
+   * `'020_optimized_kernels_analysis.py'`: analysis of the optimized metrics for Full STMF, scale-rate, freq-rate, and freq-scale representations and their decimated ones.   
+   * `'021_optimized_kernels_analysis_spectrum.py'`: analysis of the optimized metrics for the Auditory Spectrum.
+   * `'022_EuclideanDistanceAnalyses.py'`: analysis of the euclidean distances pairwise correlations.
+
+### Clustering of optimized metrics
+   * `'030_acoustic_interpretation_dendrograms.py'`: run the clustering analysis.
+### Acoustic interpretations of the metrics
+   * `'040_acoustic_interpretation_tabs.py'`: this script computes the pairwise correlation between representations for the generalizability analysis with full statistics.
+   * `'041_acoustic_interpretation.py'`: this script computes the pairwise correlation between representations for the generalizability analysis.
+### Timbre perceptual metrics are experiment-specific
+   * `'050_correlation_with_variability.py'`: this script computes the correlation between the stimuli variability and the optimized metrics.
+   * `'051_regression_between_metrics_and_stimuli.py'`: this script computes the multiple linear regression between the optimized metrics and the stimuli representation.
+   * `'052_regression_between_metrics_and_stimuli_fullStats.py'`: this script computes the multiple linear regression between the optimized metrics and the stimuli representation.   
+
+## Contact
+Please contact me (etienne thoret) for any question(s), bug(s), request(s), suggestion(s): <firstname><name>[AT]gmail<dot>com
 
 ## Depedencies
 
-Python dependencies: `tensorly`, `numpy`, `matplotlib`, `aifc`, `tensorflow`
+Python dependencies: `tensorly`, `numpy`, `matplotlib`, `aifc`, `tensorflow`, `scipy`, `random`, `pingouin`, `math`, `pylab`, `tslearn`, `sklearn`, `statsmodels`
 
