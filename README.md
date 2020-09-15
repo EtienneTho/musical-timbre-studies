@@ -7,8 +7,8 @@ This project is separated into two parts corresponding to the two main different
 2. a part concerning the optimisation of gaussian kernels in `'./optimized_metrics/'`
 
 ## Instructions
-
-MDS analysis : written in MATLAB
+### Multidimensional scaling analysis
+(written in MATLAB)
 1. Paste the `'./ext/'` folder (private link provided upon request) in the main repo `'./musical-timbre-studies/'`
 2. Run analyses with `main_MDS_BASED_ANALYSIS.m`
 3. Generate figure by running `Figure2.m`
