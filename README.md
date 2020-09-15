@@ -2,15 +2,15 @@
 
 Supporting scripts for the paper: "Learning metrics on spectrotemporal modulations reveals the perception of musical instrument timbre" by Thoret E., Caramiaux B., Depalle P., McAdams S.
 
-This project is separated into two parts corresponding to the two main different parts of the paper:
-1. a mds based analysis of the 17 datasets in folder `'./mds_based_analysis/'` 
-2. a part concerning the optimisation of gaussian kernels in `'./optimized_metrics/'`
+This project is separated into two main parts corresponding to the two main different analyses of the paper:
+1. a mds based analysis of the 17 datasets in folder `'./mds_based_analysis/'` written in Matlab
+2. a part concerning the optimisation of gaussian kernels in `'./optimized_metrics/'` written in Python
 
 ## Instructions
 1. Paste the `'./ext/'` folder (private link provided upon request) in the main repo `'./musical-timbre-studies/'`
 
 ### Multidimensional scaling analysis
-(written in MATLAB)
+`'./mds_based_analysis/matlab/'` 
 2. Run analyses with `main_MDS_BASED_ANALYSIS.m`
 3. Generate figure by running `Figure2.m`
 
@@ -29,17 +29,20 @@ Metric learning: optimisation of gaussian kernels written in python (python 3.X)
    * `'022_EuclideanDistanceAnalyses.py'`: analysis of the euclidean distances pairwise correlations.
 
 ### Clustering of optimized metrics
+`'./optimized_metrics/python/'`:
    * `'030_acoustic_interpretation_dendrograms.py'`: run the clustering analysis.
 ### Acoustic interpretations of the metrics
+`'./optimized_metrics/python/'`:
    * `'040_acoustic_interpretation_tabs.py'`: this script computes the pairwise correlation between representations for the generalizability analysis with full statistics.
    * `'041_acoustic_interpretation.py'`: this script computes the pairwise correlation between representations for the generalizability analysis.
 ### Timbre perceptual metrics are experiment-specific
+`'./optimized_metrics/python/'`:
    * `'050_correlation_with_variability.py'`: this script computes the correlation between the stimuli variability and the optimized metrics.
    * `'051_regression_between_metrics_and_stimuli.py'`: this script computes the multiple linear regression between the optimized metrics and the stimuli representation.
    * `'052_regression_between_metrics_and_stimuli_fullStats.py'`: this script computes the multiple linear regression between the optimized metrics and the stimuli representation.   
 
 ## Contact
-Please contact me (etienne thoret) for any question(s), bug(s), request(s), suggestion(s): <firstname><name>[AT]gmail<dot>com
+Please feel free to contact me (etienne thoret) for any question(s), bug(s), request(s), suggestion(s): <firstname><name>[AT]gmail<dot>com
 
 ## Depedencies
 
