@@ -1,6 +1,6 @@
 # musical-timbre-studies
 
-Supporting scripts for the submitted paper: "Learning metrics on spectrotemporal modulations reveals the perception of musical instrument timbre" by Thoret E., Caramiaux B., Depalle P., McAdams S.
+Supporting scripts for the paper: "Learning metrics on spectrotemporal modulations reveals the perception of musical instrument timbre" by Thoret E., Caramiaux B., Depalle P., McAdams S.
 
 This project is separated into two parts corresponding to the two main different parts of the paper:
 1. a mds based analysis of the 17 datasets in folder `'./mds_based_analysis/'` 
