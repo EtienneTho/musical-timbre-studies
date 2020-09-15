@@ -14,7 +14,7 @@ This project is separated into two main parts corresponding to the two main diff
 2. Run analyses with `main_MDS_BASED_ANALYSIS.m`
 3. Generate figure by running `Figure2.m`
 
-Metric learning: optimisation of gaussian kernels written in python (python 3.X). We detail below the correspondance between the scripts and the results reported in the paper. As the computation of the optimizations (scripts 010_XX 011_XX 012_XX 013_XX) is time consuming, the optimized are provided in the repository and don't need to be necessarilt re-run.
+Metric learning: optimisation of gaussian kernels written in python (python 3.X). We detail below the correspondance between the scripts and the results reported in the paper. As the computation of the optimizations (scripts 010_XX 011_XX 012_XX 013_XX) is time consuming, the optimized metrics are provided in the other repository subfolders and do not need to be necessarily re-run.
 
 ### Optimized metrics simulating human dissimilarity ratings
 `'./optimized_metrics/python/'`:
