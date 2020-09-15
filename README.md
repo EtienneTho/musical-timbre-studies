@@ -7,15 +7,17 @@ This project is separated into two parts corresponding to the two main different
 2. a part concerning the optimisation of gaussian kernels in `'./optimized_metrics/'`
 
 ## Instructions
+1. Paste the `'./ext/'` folder (private link provided upon request) in the main repo `'./musical-timbre-studies/'`
+
 ### Multidimensional scaling analysis
 (written in MATLAB)
-1. Paste the `'./ext/'` folder (private link provided upon request) in the main repo `'./musical-timbre-studies/'`
 2. Run analyses with `main_MDS_BASED_ANALYSIS.m`
 3. Generate figure by running `Figure2.m`
 
 Metric learning: optimisation of gaussian kernels written in python (python 3.X). We detail below the correspondance between the scripts and the results reported in the paper. As the computation of the optimizations (scripts 010_XX 011_XX 012_XX 013_XX) is time consuming, the optimized are provided in the repository and don't need to be necessarilt re-run.
 
 ### Optimized metrics simulating human dissimilarity ratings
+`'./optimized_metrics/python/'`:
    * `'010_optimize_metrics.py'`: run optimisation of between-sounds metrics for Full STMF, scale-rate, freq-rate, and freq-scale representations.
    * `'011_optimize_metrics_spectrum.py'`: run optimisation of between-sounds metrics for the Auditory Spectrum.
    * `'012_optimize_euclidean_distance.py'`: run the pairwise euclidean distances between Full STMFs representation.
