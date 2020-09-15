@@ -42,7 +42,7 @@ Metric learning: optimisation of gaussian kernels written in python (python 3.X)
    * `'052_regression_between_metrics_and_stimuli_fullStats.py'`: this script computes the multiple linear regression between the optimized metrics and the stimuli representation.   
 
 ## Contact
-Please feel free to contact me (etienne thoret) for any question(s), bug(s), request(s), suggestion(s): <firstname><name>[AT]gmail<dot>com
+Please feel free to contact me (etienne thoret) for any question(s), bug(s), request(s), suggestion(s): [firstname][name][AT]gmail[dot]com
 
 ## Depedencies
 
