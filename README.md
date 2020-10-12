@@ -8,7 +8,7 @@ This project is separated into two main parts corresponding to the two main diff
 
 ## Instructions
 1. Paste the `'./ext/'` folder (private link provided upon request) in the main repo `'./musical-timbre-studies/'` (the results can be reproduced without this).
-2. Download the `metricPython.zip` at the link https://osf.io/qu7vc/
+2. Download the `metricPython.zip` at the link https://osf.io/qu7vc/ (doi: 10.17605/OSF.IO/QU7VC)
 3. Unzip `metricPython.zip` and then drag and drop the folders in the folder `'./python/'`
 
 ### Multidimensional scaling analysis
