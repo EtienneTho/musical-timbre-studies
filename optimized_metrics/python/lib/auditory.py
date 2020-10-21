@@ -6,8 +6,8 @@ All rights reserved
 import numpy as np
 import math
 from scipy import signal
-from lib import utils
-from lib import features  #import spectrum2scaletime, scaletime2scalerate, scalerate2cortical, waveform2auditoryspectrogram
+import utils
+import features  #import spectrum2scaletime, scaletime2scalerate, scalerate2cortical, waveform2auditoryspectrogram
 import matplotlib.pylab as plt
 
 
