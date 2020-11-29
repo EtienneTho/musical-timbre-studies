@@ -7,14 +7,12 @@ This project is separated into two main parts corresponding to the two main diff
 2. a part concerning the optimisation of gaussian kernels in `'./optimized_metrics/'` written in Python
 
 ## Instructions
-1. Paste the `'./ext/'` folder (private link provided upon request) in the main repo `'./musical-timbre-studies/'` (the results can be reproduced without this).
-2. Download the `metricPython.zip` at the link https://osf.io/qu7vc/ (doi: `10.17605/OSF.IO/QU7VC`)
+1. Download the repository
+2. To save time, you can also get already optimzed metrics by downloading the `metricPython.zip` at the link https://osf.io/qu7vc/ (doi: `10.17605/OSF.IO/QU7VC`)
 3. Unzip `metricPython.zip` and then drag and drop the folders in the folder `'./python/'`
 
 ### Multidimensional scaling analysis
 `'./mds_based_analysis/matlab/'` 
-
-* Paste the `'./ext/'` folder (private link provided upon request) in the main repo `'./musical-timbre-studies/'`
 * Run analyses with `main_MDS_BASED_ANALYSIS.m`
 * Generate figure by running `Figure2.m`
 
