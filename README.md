@@ -11,12 +11,12 @@ This project is separated into two main parts corresponding to the two main diff
 2. To save time, you can also get already optimzed metrics by downloading the `metricPython.zip` at the link https://osf.io/qu7vc/ (doi: `10.17605/OSF.IO/QU7VC`)
 3. Unzip `metricPython.zip` and then drag and drop the folders in the folder `'./python/'`
 
-### Multidimensional scaling analysis
+## Multidimensional scaling analysis
 `'./mds_based_analysis/matlab/'` 
 * Run analyses with `main_MDS_BASED_ANALYSIS.m`
 * Generate figure by running `Figure2.m`
 
-### Metric learning 
+## Metric learning 
 The optimisation of gaussian kernels are written in python (python 3.X). We detail below the correspondance between the scripts and the results reported in the paper. As the computation of the optimizations (scripts 010_XX 011_XX 012_XX 013_XX) is time consuming, the optimized metrics are provided in the other repository subfolders and do not need to be necessarily re-run.
 
 ### Optimized metrics simulating human dissimilarity ratings
